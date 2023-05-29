@@ -1,0 +1,59 @@
+.container {
+    width: 300px;
+   
+    margin: 0 auto;
+    padding: 20px;
+    border: black;
+    background-color: aliceblue;
+    background-image: url("images/login_background.jpg");
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  body {
+    background-color: rgb(236, 238, 243);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  h2 {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-bottom: 10px;
+    font: italic;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  

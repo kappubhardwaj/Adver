@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+  </head>
+  <body>
+    <img class="logo" src="images/Screenshot_from_2023-05-24_22-49-49-removebg-preview.png" alt="Logo">
+    <div class="container">
+      <h2>Login</h2>
+      <div class="form-wrapper">
+        <form id="loginForm" onsubmit="return validateLogin()">
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+          </div>
+          <div>
+            <input type="submit" value="Login">
+          </div>
+        </form>
+        <hr>
+        <h2>Create Account</h2>
+        <form id="createAccountForm" onsubmit="return createAccount()">
+          <div>
+            <label for="newUsername">Username (Email or 10-digit Phone Number):</label>
+            <input type="text" id="newUsername" required>
+          </div>
+          <div>
+            <label for="newPassword">Password (8-15 characters, at least one lowercase letter, one uppercase letter, one number, and one special character):</label>
+            <input type="password" id="newPassword" required>
+          </div>
+          <div>
+            <input type="submit" value="Create Account">
+          </div>
+        </form>
+      </div>
+      <script src="login.js"></script>
+  </body>
+</html>
